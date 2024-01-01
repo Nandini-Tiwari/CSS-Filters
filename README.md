@@ -1,5 +1,4 @@
 # CSS-Filters
-# Image Filter Project
 
 This project demonstrates the use of various CSS filter properties applied to images using HTML and CSS.
 
