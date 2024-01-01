@@ -1,0 +1,96 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: rgb(255, 183, 0);
+}
+
+#outer {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.a {
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgb(176, 117, 231);
+}
+
+.a img {
+    height: 280px;
+    width: 280px;
+    box-sizing: border-box;
+}
+
+.a img#a1 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a1:hover {
+    filter: blur(10px);
+    /* This'll apply different filters on your image */
+}
+
+.a img#a2 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a2:hover {
+    filter: brightness(1.5);
+}
+
+.a img#a3 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a3:hover {
+    filter: contrast(5);
+}
+
+.a img#a4 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a4:hover {
+    filter: grayscale(5);
+}
+
+.a img#a5 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a5:hover {
+    filter: opacity(0.5);
+}
+
+.a img#a6 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a6:hover {
+    filter: saturate(2);
+}
+
+.a img#a7 {
+    filter: none;
+    transition: all ease 0.4s;
+}
+
+.a img#a7:hover {
+    filter: sepia(2);
+}
